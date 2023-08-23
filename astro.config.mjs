@@ -7,7 +7,7 @@ export default defineConfig({
     "/kofi": "https://ko-fi.com/duckodas",
     "/discord": "https://discord.gg/75QR5duadJ",
     "/paypal": "https://paypal.me/sapphiredevs",
-    "/github": "https://github.com/sapphiredevs",
+    "/github": "https://github.com/sapphdevelopment",
     "/projectdiscord": "https://github.com/projectdiscord",
   },
   integrations: [

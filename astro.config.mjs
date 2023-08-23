@@ -4,10 +4,11 @@ import starlight from "@astrojs/starlight";
 // https://astro.build/config
 export default defineConfig({
   redirects: {
+    "/kofi": "https://ko-fi.com/duckodas",
     "/discord": "https://discord.gg/75QR5duadJ",
     "/paypal": "https://paypal.me/sapphiredevs",
     "/github": "https://github.com/sapphiredevs",
-    "/kofi": "https://ko-fi.com/duckodas",
+    "/projectdiscord": "https://github.com/projectdiscord",
   },
   integrations: [
     starlight({
@@ -18,15 +19,8 @@ export default defineConfig({
       },
       sidebar: [
         {
-          label: "Guides",
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "Getting Started", link: "/guides/example/" },
-          ],
-        },
-        {
-          label: "Reference",
-          autogenerate: { directory: "reference" },
+          label: "Start Here",
+          autogenerate: { directory: "start", collapsed: false },
         },
       ],
     }),

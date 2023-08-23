@@ -1,19 +1,21 @@
 ---
 title: Welcome to Sapphire Development
-description: Get started building your docs site with Starlight.
+description: Get started using Sapphire Development's bots
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: ❝ What we have once enjoyed we can never lose. All that we love deeply becomes a part of us. ❞
   image:
-    file: ../../assets/houston.webp
+    alt: "Sapphire glowing blue colored logo"
+    file: ../../assets/logo.png
   actions:
     - text: Getting Started
-      link: /guides/example/
+      link: /start/getting-started/
       icon: right-arrow
       variant: primary
     - text: Join us on Discord
       link: /discord
       icon: external
+	
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
@@ -21,16 +23,13 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 ## Next steps
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Code Scanning & Bugs" icon="warning">
+		At Sapphire Development, we use [SonarCloud](https://www.sonarsource.com/products/sonarcloud/) to scan our open-source projects for reliability, maintainability, security vulnerabilities, code duplications, and security hotspots. Our aim is to ensure that we deliver the best possible product to you!
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Discord Bots" icon="discord">
+		Sapphire Development creates bots under Project Discord, where our main focus is on crafting bots for people to use. Our goal is to develop every useful bot imaginable, providing a high degree of customization to fulfill the requirements and needs of our users.
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Support us!" icon="star">
+		If you want to support us via donation, you can do so through our [Paypal](/paypal) or [Kofi](/kofi).
 	</Card>
 </CardGrid>

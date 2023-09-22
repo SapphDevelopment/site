@@ -4,9 +4,9 @@ import starlight from "@astrojs/starlight";
 // https://astro.build/config
 export default defineConfig({
   redirects: {
-    "/kofi": "https://ko-fi.com/duckodas",
+    "/kofi": "https://ko-fi.com/sapphiredev",
     "/discord": "https://discord.gg/75QR5duadJ",
-    "/community": "https://discord.gg/73bbVd4jEw",
+    "/community": "https://discord.gg/gAb25kkRQj",
     "/paypal": "https://paypal.me/sapphiredevs",
     "/github": "https://github.com/sapphdevelopment",
     "/projectdiscord": "https://github.com/projectdiscord",

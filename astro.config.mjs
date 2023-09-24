@@ -8,14 +8,14 @@ export default defineConfig({
     "/discord": "https://discord.gg/75QR5duadJ",
     "/community": "https://discord.gg/gAb25kkRQj",
     "/paypal": "https://paypal.me/sapphiredevs",
-    "/github": "https://github.com/sapphdevelopment",
+    "/github": "https://github.com/SapphDevelopment",
     "/projectdiscord": "https://github.com/projectdiscord",
   },
   integrations: [
     starlight({
       title: "Sapphire Development",
       social: {
-        github: "https://github.com/sapphiredevs",
+        github: "https://github.com/SapphDevelopment",
         discord: "https://discord.gg/75QR5duadJ",
       },
       sidebar: [
